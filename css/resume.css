@@ -93,8 +93,10 @@ p.lead {
   outline-color: #9831FE;
 }
 
-#auto-dim {
-    width: 100%; height: auto
+#responsive-image {
+    max-width: 100vp;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
 

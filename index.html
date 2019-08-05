@@ -94,20 +94,20 @@
           <div class="resume-content">
             <h3 class="mb-0">High-Voltage Plasma Arc Speaker</h3>
             <div class="subheading mb-3">IEEE UCSB Chapter</div>
-            <p>This project allowed for a music signal from any standard device to be played by a high-voltage plasma arc. I assembled three different circuits: a signal generator circuit that converts a MIDI signal to a PWM signal, a signal amplifier circuit, and a MOSFET H-bridge circuit that then converts the amplified DC signal to AC to allow for a transformer to step up the signal voltage and produce the arc.</p>
+            <p>This project allowed for a music signal from any standard device to be played by a high-voltage plasma arc. I assembled three different circuits. The first circuit generates a PWM signal from the MIDI audio input. This PWM signal is then amplified in the second circuit. The final circuit, a  MOSFET H-bridge, then converts the amplified DC signal to AC to allow for a transformer to step up the signal voltage and produce the arc at the corresponding music frequencies.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">October 2017 - May 2018</span>
           </div>
         </div>
         <figure>
-          <img src="img/plasma.jpg" id="auto-dim"/> 
+          <img src="img/plasma.jpg" style="max-width:100vw;height:auto"/> 
           <figcaption>Plasma Speaker with its three circuits and transformer</figcaption>
         </figure>
         <br>
         <br>
         <div>
-          <video id="auto-dim" controls>
+          <video style="max-width:100vw;height:auto" controls>
             <source src="vid/plasma.mp4" type="video/mp4">
           </video>
           <br>
@@ -127,14 +127,14 @@
           <div class="resume-content">
             <h3 class="mb-0">Facial Recognition Smart-Lock</h3>
             <div class="subheading mb-3">SB Hacks V</div>
-            <p>This project uses OpenCV (Python Computer Vision Library) to match allowed users and automatically open a lock to a house or room, allowing key-less entry. Users start by uploading a single image of each person allowed to enter on our website hosted on the Google Cloud Platform. When a guest wants to enter, they have a picture taken at the door which is then sent to our server that uses machine learning and computer vision to determine if the guest is a match with the allowed guests. The server then sends a response to a Raspberry Pi that acts as its own server. The Raspberry Pi interprets this response and then sends it to an Arduino which then can operate a servo that locks/unlocks the door and displays messages to the guests about their status. I designed and put together hardware and worked on software integration. Specifically, I made a Raspberry Pi circuit that runs JavaScript code to access our server on the Google Cloud Platform for a facial recognition program response. The Raspberry Pi then converts the response to a digital signal to have an Arduino turn a lock using servo motors and display messages on an LCD.</p>
+            <p>This project uses OpenCV (Python Computer Vision Library) to match allowed users and automatically open a lock to a house or room, allowing key-less entry. This project was a submission to the <em>SB Hacks V Hackathon</em> at UC Santa Barbara where my team won the <strong>Best Security Hack Award</strong> sponsored by Arthrex, Inc. Users start by uploading a single image of each person allowed to enter on our website hosted on the Google Cloud Platform. When a guest wants to enter, they have a picture taken at the door which is then sent to our server that uses a machine learning computer vision algorithm to determine if the guest is a match with the allowed guests. The server then sends a response to a Raspberry Pi located at the door. The Raspberry Pi interprets this response and then sends it to an Arduino which then can operate a servo that locks/unlocks the door and displays messages to the guests about their status. I designed and put together hardware and worked on software integration. Specifically, I made a Raspberry Pi circuit that runs JavaScript code to access our server on the Google Cloud Platform for a facial recognition program response. The Raspberry Pi then converts the response to a digital signal to have an Arduino turn a lock using servo motors and display messages on an LCD.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">January 2019</span>
           </div>
         </div>
         <figure>
-          <img src="img/opensesame.jpg" id="auto-dim"/> 
+          <img src="img/opensesame.jpg" style="max-width:100vw;height:auto"/> 
           <figcaption>Devpost Submission showing the main client interface</figcaption>
         </figure>
         <br>
@@ -152,15 +152,17 @@
           <div class="resume-content">
             <h3 class="mb-0">32 x 32 LED Panel Tetris Game Console</h3>
             <div class="subheading mb-3">UCSB ECE 5</div>
-            <p>I assembled the necessary hardware by soldering connections from the two-axis joystick and a 32 by 32 LED panel to a microcontroller. I then wrote the Tetris game code for the microcontroller through the Arduino IDE.</p>
+            <p>This project allows users to play Tetris on a vibrant LED panel. I wrote the Tetris game code on an Arduino Mega, which interfaces with the LED panel via a library that controls each LED individually. I also integrated a joystick to give an arcade-style feel to the user.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">January 2018 - March 2018</span>
           </div>
         </div>
-        <iframe id="auto-dim"
+        <iframe style="max-width:100vw;height:auto"
           src="https://www.youtube.com/embed/oSRXhSu-7ok" allowfullscreen>
         </iframe>
+        <br>
+        <caption>YouTube video showcasing the game console and its controls</caption>
       </div>
     </section>
     
@@ -175,19 +177,20 @@
           <div class="resume-content">
             <h3 class="mb-0">4 x 4 x 4 LED Cube Light Display</h3>
             <div class="subheading mb-3">IEEE UCSB Chapter</div>
-            <p>This project allows for 3D designs to be displayed on a 4 by 4 by 4 cube of LEDs. I constructed the LED cube and circuitry and wrote microcontroller code for the designs.</p>
+            <p>This project allows for 3D designs to be displayed on a 4 by 4 by 4 cube of LEDs. I constructed the LED cube and circuitry and wrote microcontroller code on an Arduino Nano for the designs.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">October 2018 - February 2019</span>
           </div>
         </div>
-        <img src="img/cube.jpg" id="auto-dim"/> 
-        <br>
-        <caption>LED Cube while displaying a programmed pattern</caption>
+        <figure>
+          <img src="img/cube.jpg" style="max-width:100vw;height:auto"/> 
+          <figcaption>LED Cube while displaying a programmed pattern</figcaption>
+        </figure>
         <br>
         <br>
         <div>
-          <video id="auto-dim" controls>
+          <video style="max-width:100vw;height:auto" controls>
             <source src="vid/cube.mp4" type="video/mp4">
           </video>
           <br>
@@ -226,13 +229,22 @@
           <div class="resume-content">
             <h3 class="mb-0">Machined Aluminum Lightsaber Hilt</h3>
             <div class="subheading mb-3">UCSB Machine Shop Club</div>
-            <p>I created a lightsaber with a machined aluminum handle through the Machine Shop Club. I designed CAD specifications of the handle from scratch using SolidWorks. I then made the handle by lathing aluminum stock based off of the specifications of my CAD design.</p>
+            <p>I created a lightsaber with a machined aluminum handle through the UC Santa Barbara Machine Shop Club. I designed CAD specifications of the handle from scratch using SolidWorks. I then made the handle by lathing aluminum stock based off of the specifications of my CAD design.</p>
           </div>
           <div class="resume-date text-md-right">
             <span class="text-primary">November 2018 - February 2019</span>
           </div>
         </div>
-
+        <figure>
+          <img src="img/lightsabermodel.PNG" style="max-width:100vw;height:auto"/> 
+          <figcaption>Lightsaber 3D Model produced with SolidWorks</figcaption>
+        </figure>
+        <br>
+        <br>
+        <figure>
+          <img src="img/lightsaber.jpeg" style="max-width:100vw;height:auto"/> 
+          <figcaption>Final product after machinging aluminum stock</figcaption>
+        </figure>
       </div>
     </section>
 
