@@ -46,6 +46,9 @@
         </li> 
         -->
         <li class="nav-item"> 
+          <a class="nav-link js-scroll-trigger" href="#mosfet">MOSFET Fabrication</a>
+        </li>
+        <li class="nav-item"> 
           <a class="nav-link js-scroll-trigger" href="#plasma">Plasma Speaker</a>
         </li>
         <li class="nav-item">
@@ -56,9 +59,6 @@
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#cube">LED Cube Display</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#micromouse">MicroMouse Proto.</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#lightsaber">Machined Lightsaber</a>
@@ -77,7 +77,7 @@
         <div class="subheading mb-5">San Jose, CA ·
           <a href="mailto:nmir@ucsb.edu">nmir@ucsb.edu</a>
         </div>
-        <p class="lead mb-5">I am an <strong>electrical engineering</strong> undergraduate student at the <em>University of California, Santa Barbara</em>. I am interested in all things hardware/software, and I plan on specializing on <em>embedded systems</em> and <em>signal processing</em>. I have dedicated this website to showcase the different projects I have completed. Enjoy!</p>
+        <p class="lead mb-5">I am an <strong>electrical engineering</strong> undergraduate student at the <em>University of California, Santa Barbara</em>. I am interested in all things hardware/software, and I particularly like <em>hardware design</em> (particularly <em>digital hardware</em>) and <em>signal processing</em>. I have dedicated this website to showcase the different projects I have completed. Enjoy!</p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/navidmir">
             <i class="fab fa-linkedin-in"></i>
@@ -111,6 +111,43 @@
       </div>
     </section>
     -->
+      
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="mosfet">
+      <div class="w-100">
+        <h2 class="mb-5">MOSFET Fabrication</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Fabrication of n-Channel MOSFET from bare Silicon</h3>
+            <div class="subheading mb-3">UCSB ECE 120A</div>
+            <p>This group lab project was to fabricate an <strong>n-MOSFET</strong> (n-Channel Metal-Oxide Semiconductor, Field Effect Transistor). Starting with bare, p-type doped Silicon wafers, we layered our samples with 4 total Masks. We used photolithography with a mask contact aligner to expose the photoresist on our samples and developed them in a base developer. We grew silicon dioxide for three different functions, one for the field, one to drive in our phosphorus n-type dopants for the source and drain regions, and one for the gate. We doped these souce and drain regions with phosphorus by first performing predeposition, and then performing a drive-in of the dopants with an oxide growth. To etch the oxide, we did wet-etching with hydrofluoric acid. Our last steps were to do aluminum deposition on the wafer with electron-beam evaporation and to perform liftoff to reveal our working transistors! The gate dimensions of the devices are from 100&mu;m X 5&mu;m to 400&mu;m X 20&mu;m. </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">February 2020 - March 2020</span>
+          </div>
+        </div>
+        <figure>
+          <img src="img/transistors.JPG" style="max-width:90vw;height:auto"/> 
+          <figcaption>Transistors of Various Dimensions</figcaption>
+        </figure>
+        <br>
+        <br>
+        <figure>
+          <img src="img/400x20,idvd.png" style="max-width:90vw;height:auto"/> 
+          <figcaption>Drain Current vs Drain Voltage Plot</figcaption>
+        </figure>
+        <br>
+        <br>
+        <figure>
+          <img src="img/400x20,idvg.png" style="max-width:90vw;height:auto"/> 
+          <figcaption>Drain Current vs Gate Voltage Plot</figcaption>
+        </figure>
+        <br>
+        <br>
+      </div>
+    </section>
       
     <hr class="m-0">
 
@@ -228,26 +265,6 @@
           <br>
           <figcaption>LED Cube in action displaying a spiral pattern</figcaption>
         </div>
-      </div>
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="micromouse">
-      <div class="w-100">
-        <h2 class="mb-5">MicroMouse Prototype</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <h3 class="mb-0">Autonomous Maze-Solving Robot Prototype</h3>
-            <div class="subheading mb-3">IEEE UCSB Chapter</div>
-            <p>This robot prototype is designed to <em>autonomously solve</em> and traverse a maze in the fastest amount of time. I constructed a wood base prototype to test a design. I assembled the circuits which used infrared distance sensors, motor drivers, and stepper motors. I also wrote microcontroller code that allowed for sensor data to be read and converted to distance measurements and code that allowed for driving the bipolar stepper motors.</p>
-          </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">August 2018 - September 2018</span>
-          </div>
-        </div>
-
       </div>
     </section>
       
